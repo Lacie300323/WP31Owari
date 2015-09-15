@@ -1,0 +1,91 @@
+<?php
+	include 'php/log_in.php';
+?>
+
+
+<html>
+
+	<head>			
+		<!--meta-->
+		<title>Weekopdrachten | Week1 | Opdracht 2 </title>
+        <meta http-equiv="Content-Type" content="text/html"; charset="US-ASCII">
+		
+		<!--Links-->
+		<link rel="stylesheet" href= "css/index.css">
+		
+		<!--Scripts-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>		
+	</head>
+	
+	<body>
+		<section id="wrapper">
+
+				
+			<section class="signup">
+				<article class="log">
+						
+						<!--Inlog formulier-->
+						<form name="inlogform" method="post">
+				
+							<table border="0" cellpadding="10" cellspacing="1" width="500" align="center">
+								<tr class="tableheader">
+									<td align="center" colspan="2">Sign up</td>
+								</tr>
+								<tr>
+									<td align="center" colspan="2" style="color:red">Usernames may contain only digits, upper and lower case letters and underscores</td>
+								</tr>
+								
+								<tr class="tablerow">
+									<td align="right">Gebruikersnaam:</td>
+									<td><input type="text" name="username_signup"></td>
+								</tr>
+								
+								<tr class="tablerow">
+									<td align="right">Wachtwoord:</td>
+									<td><input type="password" name="password_signup"></td>
+								</tr>
+								
+								<tr class="tableheader">
+									<td align="center" colspan="2">
+									<input type="submit" name="aanmaken" value="Verzenden"/>
+									</td>
+								</tr>
+							</table>
+					</form>	
+				</article>				
+			</section>
+
+			<section class="signin">
+				<article class="log">
+						
+						<!--Inlog formulier-->
+						<form name="inlogform" method="post">
+				
+							<table border="0" cellpadding="10" cellspacing="1" width="500" align="center">
+								<tr class="tableheader">
+									<td align="center" colspan="2">Sign In</td>
+								</tr>
+								
+								<tr class="tablerow">
+									<td align="right">Gebruikersnaam:</td>
+									<td><input type="text" name="username_login"></td>
+								</tr>
+								
+								<tr class="tablerow">
+									<td align="right">Wachtwoord:</td>
+									<td><input type="password" name="password_login"></td>
+								</tr>
+								
+								<tr class="tableheader">
+									<td align="center" colspan="2">
+									<input type="submit" name="inloggen" value="Inloggen"/>
+									</td>
+								</tr>
+							</table>
+					</form>	
+				</article>				
+			</section>	
+			
+	</body>
+</html>
